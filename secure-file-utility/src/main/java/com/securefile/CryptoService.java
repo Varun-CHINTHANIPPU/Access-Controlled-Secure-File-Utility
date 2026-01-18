@@ -30,7 +30,7 @@ public class CryptoService {
             PBEKeySpec spec = new PBEKeySpec(password, salt, 100_000, 256); // 256 bits = 32 bytes
             SecretKeyFactory skf = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA256");
             byte[] key = skf.generateSecret(spec).getEncoded();
-            return key; // now returns raw 32-byte key for AES-256
+            return key;
         } catch (NoSuchAlgorithmException | InvalidKeySpecException e) {
             throw new RuntimeException("Key derivation failed", e);
         }

@@ -1,0 +1,14 @@
+[
+  {
+    "username": "alice",
+    "salt": "gU3nZiuE/3PmLVcanET1eA==",
+    "passwordHash": "JcrfKWGxdMSAsijokc2fdUgczWwztRHQ8wu3I74OnMQ=",
+    "allowedFiles": ["budget.xlsx", "secret.txt","test.txt"]
+  },
+  {
+    "username": "bob",
+    "salt": "V0G8GK12DWNyrpC9GPejag==",
+    "passwordHash": "gnwh2IuIcbgWT8P3D5C4sR3w9iaTFjQ6sVMs+2zWJ1U=",
+    "allowedFiles": ["notes.txt"]
+  }
+]
